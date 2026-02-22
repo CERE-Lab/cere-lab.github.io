@@ -1,0 +1,96 @@
+---
+---
+
+@import "minima";
+
+/* Emeris-inspired palette (approx. from public Emeris visuals) */
+:root {
+  --emeris-teal: #0B4E5B;      /* deep teal */
+  --emeris-teal-2: #083B45;    /* darker teal */
+  --emeris-lime: #C7D64A;      /* lime accent */
+  --emeris-ink: #0F172A;       /* dark text */
+  --emeris-muted: #475569;     /* muted text */
+  --emeris-bg: #F8FAFC;        /* light background */
+  --emeris-card: #FFFFFF;      /* card background */
+  --emeris-border: rgba(15, 23, 42, 0.10);
+}
+
+/* Page background + typography */
+body {
+  background: var(--emeris-bg);
+  color: var(--emeris-ink);
+}
+
+.site-header {
+  border-top: 0;
+  border-bottom: 0;
+  background: linear-gradient(90deg, var(--emeris-teal), var(--emeris-teal-2));
+}
+
+.site-title, .site-title:visited,
+.site-nav .page-link {
+  color: white !important;
+}
+
+.site-nav .page-link:hover {
+  color: var(--emeris-lime) !important;
+  text-decoration: none;
+}
+
+.page-content {
+  max-width: 1020px;
+}
+
+/* Links */
+a, a:visited {
+  color: var(--emeris-teal);
+}
+a:hover {
+  color: var(--emeris-teal-2);
+}
+
+/* Headings */
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+/* Callouts & cards */
+.callout {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--emeris-border);
+  border-radius: 16px;
+  background: white;
+}
+
+.callout-emeris {
+  background: linear-gradient(180deg, rgba(11, 78, 91, 0.10), rgba(199, 214, 74, 0.10));
+  border: 1px solid rgba(11, 78, 91, 0.18);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--emeris-border);
+  border-radius: 18px;
+  background: var(--emeris-card);
+  box-shadow: 0 10px 24px rgba(2, 8, 23, 0.04);
+}
+
+.muted {
+  color: var(--emeris-muted);
+}
+
+.tag {
+  display: inline-block;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(11, 78, 91, 0.22);
+  background: rgba(199, 214, 74, 0.18);
+  margin-right: .35rem;
+  font-size: .85rem;
+}

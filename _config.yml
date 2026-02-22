@@ -2,3 +2,12 @@ title: "Computing Education Research at Emeris (CERE)"
 description: "Advancing computing education through research, innovation, and evidence-based practice."
 theme: minima
 markdown: kramdown
+
+header_pages:
+  - about.md
+  - people.md
+  - projects.md
+  - publications.md
+  - events.md
+  - resources.md
+  - contact.md
