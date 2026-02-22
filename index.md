@@ -11,6 +11,6 @@ title: CERE
 </div>
 
 <p style="text-align:center; margin-top: 1.2rem;">
-  We’re preparing our research hub website. Please check back soon.
+  We’re preparing our Research Lab website. Please check back soon.
 </p>
 
