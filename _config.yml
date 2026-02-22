@@ -3,8 +3,8 @@ description: "Advancing computing education through research, innovation, and ev
 theme: minima
 markdown: kramdown
 
-header_pages:
-  - about.md
-  - projects.md
-  - people.md
-  - contact.md
+# header_pages:
+#  - about.md
+#  - projects.md
+#  - people.md
+#  - contact.md
