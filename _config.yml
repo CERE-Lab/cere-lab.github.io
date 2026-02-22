@@ -5,9 +5,6 @@ markdown: kramdown
 
 header_pages:
   - about.md
-  - people.md
   - projects.md
-  - publications.md
-  - events.md
-  - resources.md
+  - people.md
   - contact.md
