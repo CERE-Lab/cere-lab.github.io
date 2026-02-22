@@ -94,3 +94,16 @@ h1, h2, h3 {
   margin-right: .35rem;
   font-size: .85rem;
 }
+
+.site-header .wrapper {
+    background: transparent;
+  }
+  
+  .site-footer {
+    border-top: 0;
+    background: linear-gradient(90deg, var(--emeris-teal-2), var(--emeris-teal));
+    color: white;
+  }
+  .site-footer a, .site-footer a:visited {
+    color: var(--emeris-lime);
+  }
