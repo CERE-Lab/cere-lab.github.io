@@ -37,8 +37,17 @@ body {
   text-decoration: none;
 }
 
-.page-content {
+/* Center the whole page content area */
+.wrapper {
   max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 18px;   /* keeps it readable on small screens */
+}
+
+/* You can remove your old .page-content max-width or keep it like this */
+.page-content {
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Links */
@@ -106,4 +115,9 @@ h1, h2, h3 {
   }
   .site-footer a, .site-footer a:visited {
     color: var(--emeris-lime);
+  }
+
+  .callout {
+    max-width: 860px;
+    margin: 14px auto 18px auto;
   }
