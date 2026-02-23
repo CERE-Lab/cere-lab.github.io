@@ -3,4 +3,5 @@ description: "Advancing computing education through research, innovation, and ev
 theme: minima
 markdown: kramdown
 
-header_pages: []
+header_pages:
+  - index.md
