@@ -5,8 +5,8 @@ permalink: /people/
 ---
 
 ## Leadership
-- **Lab Lead / Director:** *(Name Surname)* — *(Role, School of Computer Science)*
-- **Research Coordinator:** *(Name Surname)* — *(Role)*
+- **Lab Lead** *(Ebrahim Adam)* — *(Role, School of Computer Science)*
+- **Research Coordinator:** *(Natasha Madhav)* — *(Lecturer)*
 
 ## Research Areas & Teams
 
