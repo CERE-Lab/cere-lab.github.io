@@ -5,7 +5,8 @@ markdown: kramdown
 
 header_pages:
   - index.md
-#  - about.md
-#  - projects.md
-#  - people.md
-#  - contact.md
+  - home.md
+  - about.md
+  - projects.md
+  - people.md
+  - contact.md

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CERE
+title: Computing Education Research at Emeris (CERE)
 ---
 
 <div class="callout callout-emeris" style="text-align:center;">
