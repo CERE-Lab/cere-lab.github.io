@@ -8,7 +8,7 @@ permalink: /about/
 **Computing Education Research at Emeris (CERE)** is a research lab focused on improving teaching, learning, and assessment in computing through rigorous, practice-relevant research.
 
 <div class="callout">
-<strong>Core idea:</strong> Better computing education happens when we combine strong pedagogy, meaningful assessment, and well-evaluated technology.
+<strong>Core idea:</strong> Computing education is a specialized field focused on teaching computer science, programming, and computational thinking, alongside essential digital literacy skills
 </div>
 
 ## Our mission
