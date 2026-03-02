@@ -17,12 +17,15 @@ To advance computing education using ICT-enabled, evidence-based approaches that
 ## Our values
 - **Evidence first:** we evaluate impact, not just adoption
 - **Student-centred:** learning experiences designed for inclusion and success
-- **Ethical and responsible:** privacy, fairness, and academic integrity matter
+- **Ethical and responsible:** privacy, fairness, inclusvity  and academic integrity matter
 - **Collaboration:** educators, students, and partners co-create solutions
 
 ## Research approach
-Our work typically includes:
-- Research design and ethics
+The lab focuses on:
+Measuring the impact of AI tools on computational thinking skills.
+Comparing student performance before and after GitHub integration.
+Evaluating intergration of cloud labs across various courses 
+- Driving research design and ethics
 - Instrument design (rubrics, surveys, logs, observation)
 - Analysis (quant + qual)
 - Practical outputs (guides, templates, exemplars, prototypes)

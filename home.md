@@ -24,6 +24,14 @@ title: Computing Education Research at Emeris (CERE)
   <div class="card">
     <h3>EdTech Innovation</h3>
     <p class="muted">Evaluation of tools, LMS innovation, automation, and scalable digital learning interventions.</p>
+    <div class="card">
+            <h3>Computational Thinking</h3>
+            <p>Enhancing algorithmic reasoning and digital problem-solving.</p>
+        </div>
+     <div class="card">
+            <h3>Ethics & Integrity</h3>
+            <p>Developing responsible AI frameworks for academia.</p>
+        </div>
   </div>
 </div>
 
