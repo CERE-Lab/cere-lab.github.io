@@ -1,7 +1,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<div class="navbar">
-  <a class="brand" href="{{ '/' | relative_url }}">Computing Education Research at Emeris (CERE)</a>
+<nav class="navbar">
+  <a class="brand" href="{{ '/' | relative_url }}">
+    <img class="brand-logo" src="{{ '/assets/img/cere-logo.png' | relative_url }}" alt="CERE logo">
+    <span class="brand-text">Computing Education Research at Emeris (CERE)</span>
+  </a>
+
+  <!-- Mobile toggle -->
+  <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+
+  <label for="nav-toggle" class="nav-burger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </label>
 
   <div class="links">
     <a href="{{ '/' | relative_url }}">Home</a>
@@ -9,4 +19,4 @@
     <a href="{{ '/publications/' | relative_url }}">Publications</a>
     <a href="{{ '/contact/' | relative_url }}">Contact</a>
   </div>
-</div>
+</nav>
