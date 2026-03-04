@@ -4,23 +4,32 @@ title: Publications
 permalink: /publications/
 ---
 
-## How we share
-CERE produces:
-- Peer-reviewed papers
-- Conference presentations and posters
-- Practitioner-facing reports and guides
-- Open resources where appropriate
+{% include nav.html %}
 
-<div class="callout">
-<strong>Tip:</strong> Add DOIs/URLs for every item. If you use a consistent style (e.g., LNCS-like), the page stays clean and credible.
-</div>
+<section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
+              url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
+  <h1>Publications</h1>
+  <p>Peer-reviewed outputs, conference presentations, posters, and practitioner-facing work.</p>
+  <a href="{{ '/contact/' | relative_url }}" class="btn">Collaborate</a>
+</section>
 
-## 2026
-- Surname, N., & Surname, N. (2026). *Title of paper*. Conference/Journal. DOI/URL
-- Surname, N. (2026). *Title of report*. Emeris. URL
+<section class="section">
+  <h2>Recent Outputs</h2>
 
-## 2025
-- Surname, N. (2025). *Title of paper*. Conference/Journal. DOI/URL
+  <div class="cards">
+    <div class="card">
+      <h3>2026</h3>
+      <p>Add your 2026 publications here (paper title, venue, DOI/URL).</p>
+    </div>
+    <div class="card">
+      <h3>2025</h3>
+      <p>Add your 2025 publications here (paper title, venue, DOI/URL).</p>
+    </div>
+    <div class="card">
+      <h3>Talks & Posters</h3>
+      <p>List talks, posters, and internal reports with links.</p>
+    </div>
+  </div>
+</section>
 
-## Posters & Talks
-- (2026) *Talk title* — Event — Slides/Video link
+{% include footer.html %}
