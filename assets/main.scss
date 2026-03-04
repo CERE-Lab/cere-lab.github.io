@@ -295,6 +295,67 @@ footer.site-footer,
 }
 
 /* =========================
+   People Cards (match project style)
+========================= */
+.person-card {
+  padding: 0 !important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+}
+
+.person-img {
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.person-body {
+  padding: 22px 22px 26px;
+  flex: 1;
+}
+
+.person-body h3 {
+  margin: 0 0 12px 0;
+}
+
+.person-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+/* pill buttons for links */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.92) !important;
+
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.pill:hover {
+  transform: translateY(-1px);
+  border-color: rgba(108,99,255,0.45);
+}
+
+.muted {
+  color: rgba(255,255,255,0.72);
+}
+
+/* =========================
    Focus Area Grid (2 rows)
 ========================= */
 
