@@ -10,8 +10,8 @@ permalink: /
               url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
   <h1>Computing Education Research at Emeris (CERE)</h1>
   <p>Advancing computing education through research, innovation, and evidence-based practice.</p>
-  <a href="{{ '/projects/' | relative_url }}" class="btn">View Projects</a>
-  <a href="{{ '/contact/' | relative_url }}" class="btn">Contact Us</a>
+  <a href="{{ '/projects/' | relative_url }}" class="btn btn-secondary">View Projects</a>
+  <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Contact Us</a>
 </section>
 
 <section class="section">
@@ -58,22 +58,6 @@ permalink: /
   </div>
 </section>
 
-<section class="section">
-  <h2>Partnerships</h2>
 
-  <div class="card page-card">
-    <p>We welcome collaboration with:</p>
-    <ul class="nice-list">
-      <li>Computer Science and Information Systems Faculties</li>
-      <li>Excellence in Teaching & Learning units</li>
-      <li>Schools, NGOs, and industry partners</li>
-      <li>Researchers, postgraduate students and research assistants</li>
-    </ul>
-
-    <div style="margin-top: 18px; text-align:center;">
-      <a href="{{ '/contact/' | relative_url }}" class="btn">Partner With Us</a>
-    </div>
-  </div>
-</section>
 
 {% include footer.html %}

@@ -6,17 +6,9 @@ permalink: /projects/
 
 {% include nav.html %}
 
-<section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
-              url('https://images.unsplash.com/photo-1581090700227-4c4f50c7e3e9') center/cover no-repeat;">
-  <h1>Projects</h1>
-  <p>Applied, evidence-based research projects improving how computing is taught, learned, and assessed.</p>
-  <a href="{{ '/contact/' | relative_url }}" class="btn">Collaborate</a>
-</section>
-
 <section class="section">
-  <h2>Current Projects</h2>
+<h2>Current Projects</h2>
 <div class="cards">
-
   <!-- Project 1 -->
   <div class="card project-card">
     <div class="project-img" style="background-image:url('{{ "/assets/img/gabriel-vasiliu-mVJzfw2Zm7Y-unsplash.jpg" | relative_url }}');"></div>
@@ -83,11 +75,11 @@ permalink: /projects/
   </div>
 
 </div>
-  
 
-  <div style="margin-top: 26px; text-align:center;">
+<div style="margin-top: 26px; text-align:center;">
     <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Propose a Project</a>
-  </div>
+</div>  
+
 </section>
 
 {% include footer.html %}
