@@ -12,7 +12,7 @@ permalink: /people/
   <div class="cards">
     <!-- Person 1 -->
     <div class="card person-card">
-      <div class="person-img" style="background-image:url('{{ "/assets/img/people/natasha.jpg" | relative_url }}');"></div>
+      <div class="person-img" style="background-image:url('{{ "/assets/img/natasha.jpg" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Natasha Madhav</h3>
         <p class="muted"><strong>Title:</strong> Lecturer – Faculty of ICT</p>
@@ -28,7 +28,7 @@ permalink: /people/
 
     <!-- Person 2 -->
     <div class="card person-card">
-      <div class="person-img" style="background-image:url('{{ "/assets/img/people/ebrahim.png" | relative_url }}');"></div>
+      <div class="person-img" style="background-image:url('{{ "/assets/img/ebrahim.png" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Ebrahim Adam</h3>
         <p class="muted"><strong>Title:</strong> Lecturer – Faculty of ICT</p>
@@ -44,7 +44,7 @@ permalink: /people/
 
     <!-- Person 3 (placeholder / add your third) -->
     <div class="card person-card">
-      <div class="person-img" style="background-image:url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=60');"></div>
+      <div class="person-img" style="background-image:url('{{ "/assets/img/ebrahim.png" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Research Associate (TBC)</h3>
         <p class="muted"><strong>Title:</strong> Research Associate</p>
