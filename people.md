@@ -7,7 +7,7 @@ permalink: /people/
 {% include nav.html %}
 
 <section class="section">
-  <h2>Leadership & Coordinators</h2>
+  <h2>People</h2>
 
   <div class="cards">
     <!-- Person 1 -->
