@@ -15,12 +15,11 @@ permalink: /projects/
 
 <section class="section">
   <h2>Current Projects</h2>
-
-  <div class="cards">
+<div class="cards">
 
   <!-- Project 1 -->
   <div class="card project-card">
-    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1581092334494-533c1e0e3dbd?auto=format&fit=crop&w=1600&q=60');"></div>
+    <div class="project-img" style="background-image:url('{{ "/assets/img/gabriel-vasiliu-mVJzfw2Zm7Y-unsplash.jpg" | relative_url }}');"></div>
 
     <div class="project-body">
       <h3>Coding & Robotics</h3>
@@ -42,7 +41,7 @@ permalink: /projects/
 
   <!-- Project 2 -->
   <div class="card project-card">
-    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=60');"></div>
+    <div class="project-img" style="background-image:url('{{ "/assets/img/markus-winkler-9draKK5mCoU-unsplash.jpg" | relative_url }}');"></div>
 
     <div class="project-body">
       <h3>Predictive Analytics – Proactive At-Risk Support</h3>
@@ -64,7 +63,7 @@ permalink: /projects/
 
   <!-- Project 3 -->
   <div class="card project-card">
-    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=60');"></div>
+    <div class="project-img" style="background-image:url('{{ "/assets/img/growtika-WELyMatW3mw-unsplash.jpg" | relative_url }}');"></div>
 
     <div class="project-body">
       <h3>CloudLabs</h3>
@@ -84,7 +83,7 @@ permalink: /projects/
   </div>
 
 </div>
-  </div>
+  
 
   <div style="margin-top: 26px; text-align:center;">
     <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Propose a Project</a>
