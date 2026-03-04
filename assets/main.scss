@@ -407,3 +407,25 @@ table th {
   margin-top: 50px;
   border-top: 1px solid rgba(255,255,255,0.08);
 }
+
+/* Project card image header */
+.project-card {
+  padding: 0; /* because we add our own inner padding */
+  overflow: hidden;
+}
+
+.project-img {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.project-body p {
+  margin-bottom: 14px;
+}
+
+.project-body strong {
+  color: #a5b4fc;
+  font-weight: 600;
+}

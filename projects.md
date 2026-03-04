@@ -7,96 +7,87 @@ permalink: /projects/
 {% include nav.html %}
 
 <section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
-              url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
+              url('https://images.unsplash.com/photo-1581090700227-4c4f50c7e3e9') center/cover no-repeat;">
   <h1>Projects</h1>
-  <p>Active research streams and project work aligned to CERE’s focus areas.</p>
-  <a href="#streams" class="btn">Active Streams</a>
-  <a href="#current" class="btn">Current Projects</a>
+  <p>Applied, evidence-based research projects improving how computing is taught, learned, and assessed.</p>
+  <a href="{{ '/contact/' | relative_url }}" class="btn">Collaborate</a>
 </section>
 
-<section class="section" id="streams">
-  <h2>Active Research Streams</h2>
+<section class="section">
+  <h2>Current Projects</h2>
 
   <div class="cards">
-    <div class="card">
-      <h3>Responsible AI in Computing Education</h3>
-      <p><strong>Goal:</strong> Understand how AI tools affect learning, assessment, and integrity in computing modules.</p>
-      <p><strong>Typical outputs:</strong> guidance for educators, assessment patterns, integrity-by-design practices.</p>
-    </div>
 
-    <div class="card">
-      <h3>Learning Analytics for Student Success</h3>
-      <p><strong>Goal:</strong> Identify early signals of struggle and design interventions that improve outcomes.</p>
-      <p><strong>Data sources:</strong> LMS activity, assessment patterns, attendance/participation indicators (where applicable and ethical).</p>
-    </div>
+  <!-- Project 1 -->
+  <div class="card project-card">
+    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1581092334494-533c1e0e3dbd?auto=format&fit=crop&w=1600&q=60');"></div>
 
-    <div class="card">
-      <h3>Authentic Assessment in Programming</h3>
-      <p><strong>Goal:</strong> Redesign assessments to measure real capability while reducing academic misconduct.</p>
-      <p><strong>Outputs:</strong> rubric templates, assessment exemplars, feedback workflows.</p>
-    </div>
+    <div class="project-body">
+      <h3>Coding & Robotics</h3>
 
-    <div class="card">
-      <h3>Active Learning Labs & Scaffolding</h3>
-      <p><strong>Goal:</strong> Evaluate lab structures that help novices progress reliably.</p>
-      <p><strong>Outputs:</strong> lab patterns, step-by-step guides, reflective prompts.</p>
+      <p><strong>Focus</strong><br>
+      Exploring how robotics and mobile app development can support hands-on computing education.</p>
+
+      <p><strong>Overview</strong><br>
+      This project combines robotics platforms with student-developed mobile applications to create interactive learning environments. Students build apps to control robots while researchers investigate how learners interact with both the hardware and software systems.</p>
+
+      <p><strong>Approach</strong><br>
+      The project studies user experience, interaction patterns, and sensor data generated during robot navigation tasks such as obstacle courses.</p>
+
+      <p><strong>Outcome</strong><br>
+      Insights into how physical computing activities influence programming learning, engagement, and problem-solving behaviour.</p>
     </div>
   </div>
-</section>
 
-<section class="section" id="current">
-  <h2>Current Projects (template)</h2>
 
-  <div class="card" style="max-width: 980px; margin: 0 auto;">
-    Use this format for each project:
-  </div>
+  <!-- Project 2 -->
+  <div class="card project-card">
+    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=60');"></div>
 
-  <div class="cards" style="margin-top: 22px;">
-    <div class="card">
-      <h3>Project Title</h3>
-      <p><strong>Research question:</strong> …</p>
-      <p><strong>Methods:</strong> …</p>
-      <p><strong>Status:</strong> Planning / Data collection / Analysis / Writing / Complete</p>
-      <p><strong>Outputs:</strong> link to paper, repo, poster, or report</p>
-    </div>
+    <div class="project-body">
+      <h3>Predictive Analytics – Proactive At-Risk Support</h3>
 
-    <div class="card">
-      <h3>Project Title</h3>
-      <p><strong>Research question:</strong> …</p>
-      <p><strong>Methods:</strong> …</p>
-      <p><strong>Status:</strong> Planning / Data collection / Analysis / Writing / Complete</p>
-      <p><strong>Outputs:</strong> link to paper, repo, poster, or report</p>
-    </div>
+      <p><strong>Focus</strong><br>
+      Using data analytics to identify students who may require academic support.</p>
 
-    <div class="card">
-      <h3>Project Title</h3>
-      <p><strong>Research question:</strong> …</p>
-      <p><strong>Methods:</strong> …</p>
-      <p><strong>Status:</strong> Planning / Data collection / Analysis / Writing / Complete</p>
-      <p><strong>Outputs:</strong> link to paper, repo, poster, or report</p>
+      <p><strong>Overview</strong><br>
+      This project investigates how anonymised institutional data can be used to identify patterns associated with academic risk. The aim is to move from reactive support to proactive intervention.</p>
+
+      <p><strong>Approach</strong><br>
+      The system analyses assessment performance and module-level trends to generate indicators that highlight potential risk areas for students.</p>
+
+      <p><strong>Outcome</strong><br>
+      A framework for supporting academic leaders with insights that can guide targeted student support strategies.</p>
     </div>
   </div>
-</section>
 
-<section class="section">
-  <h2>Completed Projects</h2>
 
-  <div class="card" style="max-width: 980px; margin: 0 auto;">
-    <ul style="margin-left: 18px;">
-      <li><strong>Project Name</strong> — one-line outcome + link</li>
-      <li><strong>Project Name</strong> — one-line outcome + link</li>
-    </ul>
-  </div>
-</section>
+  <!-- Project 3 -->
+  <div class="card project-card">
+    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=60');"></div>
 
-<section class="section">
-  <h2>Want to propose a project?</h2>
+    <div class="project-body">
+      <h3>CloudLabs</h3>
 
-  <div class="card" style="max-width: 980px; margin: 0 auto; text-align:center;">
-    Send a short proposal via the <strong>Contact</strong> page.
-    <div style="margin-top: 14px;">
-      <a href="{{ '/contact/' | relative_url }}" class="btn">Propose a Project</a>
+      <p><strong>Focus</strong><br>
+      Understanding how cloud-based laboratory environments influence computing education.</p>
+
+      <p><strong>Overview</strong><br>
+      CloudLabs provide students with access to virtual machines and computing environments without requiring local setup. This project studies how such platforms affect learning experiences in practical modules.</p>
+
+      <p><strong>Approach</strong><br>
+      The research evaluates student engagement, workflow patterns, and perceptions of cloud-based labs compared with traditional setups.</p>
+
+      <p><strong>Outcome</strong><br>
+      Evidence-based guidance on designing effective cloud lab environments for computing education.</p>
     </div>
+  </div>
+
+</div>
+  </div>
+
+  <div style="margin-top: 26px; text-align:center;">
+    <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Propose a Project</a>
   </div>
 </section>
 
