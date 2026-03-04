@@ -6,7 +6,8 @@ permalink: /
 
 {% include nav.html %}
 
-<section class="hero">
+<section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
+              url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
   <h1>Computing Education Research at Emeris (CERE)</h1>
   <p>Advancing computing education through research, innovation, and evidence-based practice.</p>
   <a href="{{ '/projects/' | relative_url }}" class="btn">View Projects</a>
@@ -17,10 +18,6 @@ permalink: /
   <div class="card page-card">
     <h2 class="section-title-left">Who we are</h2>
     <p><strong>Computing Education Research at Emeris (CERE)</strong> is a research lab focused on improving teaching, learning, and assessment in computing through rigorous, practice-relevant research.</p>
-
-    <div class="callout-dark">
-      <strong>Core idea:</strong> Computing education is a specialized field focused on teaching computer science, programming, and computational thinking.
-    </div>
   </div>
 </section>
 
