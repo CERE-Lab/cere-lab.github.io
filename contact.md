@@ -7,7 +7,7 @@ permalink: /contact/
 {% include nav.html %}
 
 <section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
-              url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover no-repeat;">
+              url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
   <h1>Contact CERE</h1>
   <p>Collaborations | Research Supervision | Academic Partnerships</p>
 </section>
