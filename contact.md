@@ -7,48 +7,45 @@ permalink: /contact/
 {% include nav.html %}
 
 <section class="section">
-
-  <section class="section">
   <h2>Contact CERE</h2>
-
-<div class="form-wrap">
-
-<form id="cere-contact-form"
+  
+  <div class="form-wrap form-wrap form-wrap-dark">
+    <form id="cere-contact-form"
       action="https://formspree.io/f/mdawnnbp"
       method="POST">
 
-<label>Full name</label>
-<input type="text" name="name" required>
+      <label>Full name</label>
+      <input type="text" name="name" required>
 
-<label>Email address</label>
-<input type="email" name="email" required>
+      <label>Email address</label>
+      <input type="email" name="email" required>
 
-<label>Affiliation / Organisation</label>
-<input type="text" name="affiliation">
+      <label>Affiliation / Organisation</label>
+      <input type="text" name="affiliation">
 
-<label>Enquiry type</label>
-<select name="enquiry_type" required>
-<option value="">Select enquiry type</option>
-<option>Collaboration / partnership</option>
-<option>Research supervision</option>
-<option>Honours / Masters research topic</option>
-<option>Student participation</option>
-<option>Speaking / seminar request</option>
-<option>Other</option>
-</select>
+      <label>Enquiry type</label>
+      <select name="enquiry_type" required>
+      <option value="">Select enquiry type</option>
+      <option>Collaboration / partnership</option>
+      <option>Research supervision</option>
+      <option>Honours / Masters research topic</option>
+      <option>Student participation</option>
+      <option>Speaking / seminar request</option>
+      <option>Other</option>
+      </select>
 
-<label>Message</label>
-<textarea name="message" rows="6" required></textarea>
+      <label>Message</label>
+      <textarea name="message" rows="6" required></textarea>
 
-<input type="text" name="_gotcha" style="display:none">
+      <input type="text" name="_gotcha" style="display:none">
 
-<button type="submit">Send Enquiry</button>
+      <button type="submit">Send Enquiry</button>
 
-</form>
+    </form>
 
-<p id="form-status"></p>
+    <p id="form-status"></p>
 
-</div>
+  </div>
 </section>
 
 <script>
