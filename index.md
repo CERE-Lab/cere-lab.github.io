@@ -40,8 +40,8 @@ permalink: /
     </div>
 
     <div class="card">
-      <h3>Computational Thinking</h3>
-      <p>Enhancing algorithmic reasoning and digital problem-solving.</p>
+      <h3>Social Justice in ICT Education</h3>
+      <p>To investigate how ICT tools and technologies can promote equitable access to education, reduce the digital divide in communities, and support inclusive learning environments.</p>
     </div>
 
     <div class="card">
