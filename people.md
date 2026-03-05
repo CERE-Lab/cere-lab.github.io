@@ -23,7 +23,6 @@ permalink: /people/
         </div>
       </div>
     </div>
-  <div class="cards">
     <!-- Person 2 -->
     <div class="card person-card">
       <div class="person-img" style="background-image:url('{{ "/assets/img/natasha.jpg" | relative_url }}');"></div>
