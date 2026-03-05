@@ -9,16 +9,9 @@ permalink: /
 <section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
               url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
   <h1>Computing Education Research at Emeris (CERE)</h1>
-  <p>Advancing computing education through research, innovation, and evidence-based practice.</p>
+  <p>A research lab focused on improving teaching, learning, and assessment in computing through rigorous and relevant research.</p>
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-secondary">View Projects</a>
   <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Contact Us</a>
-</section>
-
-<section class="section">
-  <div class="card page-card">
-    <h2 class="section-title-left">Who we are</h2>
-    <p><strong>Computing Education Research at Emeris (CERE)</strong> is a research lab focused on improving teaching, learning, and assessment in computing through rigorous, practice-relevant research.</p>
-  </div>
 </section>
 
 <section class="section">
@@ -60,7 +53,7 @@ permalink: /
 
 <section class="section" id="students">
   <h2>Student Support</h2>
-  <div class="card" style="max-width: 980px; margin: 0 auto; text-align:center;">
+  <div class="card">
     <p>We support students with:</p>
     <ul style="margin-left: 18px; margin-top: 10px;">
       <li>Honours research topics and supervision</li>
@@ -70,10 +63,9 @@ permalink: /
   </div>
 </section>
 
-
 <section class="section">
   <h2>Partnerships</h2>
-  <div class="card" style="max-width: 980px; margin: 0 auto; text-align:center;">
+  <div class="card">
     <p>We welcome collaboration with:</p>
     <ul class="nice-list">
       <li>Computer Science and Information Systems Faculties</li>

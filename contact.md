@@ -40,7 +40,7 @@ permalink: /contact/
       <!-- spam honeypot -->
       <input type="text" name="_gotcha" style="display:none">
 
-      <button class="btn" type="submit" style="margin:0;">Send Enquiry</button>
+      <button class="btn btn-secondary" type="submit" style="margin:0;">Send Enquiry</button>
     </form>
 
     <p id="form-status" role="status" aria-live="polite" style="margin-top:14px;"></p>
