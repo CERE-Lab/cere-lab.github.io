@@ -8,86 +8,83 @@ permalink: /contact/
 
 <section class="section">
   <h2>Contact CERE</h2>
-  
-  <div class="form-wrap form-wrap form-wrap-dark">
+
+  <div class="form-wrap form-wrap-dark">
     <form id="cere-contact-form"
-      action="https://formspree.io/f/mdawnnbp"
-      method="POST">
+          action="https://formspree.io/f/mdawnnbp"
+          method="POST">
 
-      <label>Full name</label>
-      <input type="text" name="name" required>
+      <label for="name">Full name</label>
+      <input id="name" type="text" name="name" required>
 
-      <label>Email address</label>
-      <input type="email" name="email" required>
+      <label for="email">Email address</label>
+      <input id="email" type="email" name="email" required>
 
-      <label>Affiliation / Organisation</label>
-      <input type="text" name="affiliation">
+      <label for="affiliation">Affiliation / Organisation</label>
+      <input id="affiliation" type="text" name="affiliation">
 
-      <label>Enquiry type</label>
-      <select name="enquiry_type" required>
-      <option value="">Select enquiry type</option>
-      <option>Collaboration / partnership</option>
-      <option>Research supervision</option>
-      <option>Honours / Masters research topic</option>
-      <option>Student participation</option>
-      <option>Speaking / seminar request</option>
-      <option>Other</option>
+      <label for="enquiry_type">Enquiry type</label>
+      <select id="enquiry_type" name="enquiry_type" required>
+        <option value="" selected disabled>Select enquiry type</option>
+        <option>Collaboration / partnership</option>
+        <option>Research supervision</option>
+        <option>Honours / Masters research topic</option>
+        <option>Student participation</option>
+        <option>Speaking / seminar request</option>
+        <option>Other</option>
       </select>
 
-      <label>Message</label>
-      <textarea name="message" rows="6" required></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
 
+      <!-- spam honeypot -->
       <input type="text" name="_gotcha" style="display:none">
 
-      <button type="submit">Send Enquiry</button>
-
+      <button class="btn" type="submit" style="margin:0;">Send Enquiry</button>
     </form>
 
-    <p id="form-status"></p>
-
+    <p id="form-status" role="status" aria-live="polite" style="margin-top:14px;"></p>
   </div>
-</section>
-
-<script>
-  // Show success note if redirected with ?sent=1
-  if (new URLSearchParams(window.location.search).get("sent") === "1") {
-    const el = document.querySelector(".success-note");
-    if (el) el.style.display = "block";
-  }
-</script>
-
 </section>
 
 {% include footer.html %}
 
 <script>
-var form = document.getElementById("cere-contact-form");
-var status = document.getElementById("form-status");
+  (function () {
+    const form = document.getElementById("cere-contact-form");
+    const status = document.getElementById("form-status");
+    if (!form || !status) return;
 
-async function handleSubmit(event) {
-  event.preventDefault();
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault();
+      status.textContent = "Sending…";
 
-  var data = new FormData(event.target);
+      try {
+        const data = new FormData(form);
 
-  fetch(event.target.action, {
-    method: form.method,
-    body: data,
-    headers: {
-      'Accept': 'application/json'
-    }
-  }).then(response => {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: { "Accept": "application/json" }
+        });
 
-    if (response.ok) {
-      status.innerHTML = "Thank you. Your enquiry has been sent.";
-      form.reset();
-    } else {
-      status.innerHTML = "Oops. Something went wrong.";
-    }
-
-  }).catch(error => {
-    status.innerHTML = "Network error. Please try again.";
-  });
-}
-
-form.addEventListener("submit", handleSubmit);
+        if (response.ok) {
+          status.textContent = "✅ Thank you. Your enquiry has been sent.";
+          form.reset();
+        } else {
+          // Try show a useful message from Formspree
+          let msg = "❌ Something went wrong. Please try again.";
+          try {
+            const json = await response.json();
+            if (json && json.errors && json.errors.length) {
+              msg = "❌ " + json.errors.map(e => e.message).join(" ");
+            }
+          } catch (_) {}
+          status.textContent = msg;
+        }
+      } catch (err) {
+        status.textContent = "❌ Network error. Please check your connection and try again.";
+      }
+    });
+  })();
 </script>
