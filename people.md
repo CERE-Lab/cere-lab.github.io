@@ -11,7 +11,7 @@ permalink: /people/
   <div class="cards">
     <!-- Person 1 -->
     <div class="card person-card">
-      <div class="person-img" style="background-image:url('{{ "/assets/img/natasha.jpg" | relative_url }}');"></div>
+      <div class="person-img" style="background-image:url('{{ "/assets/img/Johan1.jpg" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Johan Vorster</h3>
         <p class="muted"><strong>Title:</strong> Dean – Faculty of Science and Technology: School of Engineering, Science and Health</p>
