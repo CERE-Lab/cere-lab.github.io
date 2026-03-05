@@ -19,7 +19,7 @@ permalink: /people/
         <div class="person-links">
           <a class="pill" href="https://orcid.org/0009-0001-9719-4539" target="_blank" rel="noopener">ORCID</a>
           <a class="pill" href="https://scholar.google.com/citations?user=0Ss-VSIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="pill" href="mailto:nmadhav@emeris.ac.za">Email</a>
+          <a class="pill" href="mailto:jvorster@emeris.ac.za">Email</a>
         </div>
       </div>
     </div>
