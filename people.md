@@ -15,7 +15,7 @@ permalink: /people/
       <div class="person-img" style="background-image:url('{{ "/assets/img/natasha.jpg" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Natasha Madhav</h3>
-        <p class="muted"><strong>Title:</strong> Lecturer – Faculty of ICT</p>
+        <p class="muted"><strong>Title:</strong> Lecturer – School of Computer Science</p>
         <p class="muted"><strong>Affiliation:</strong> Emeris</p>
         <div class="person-links">
           <a class="pill" href="https://orcid.org/0000-0001-8055-0923" target="_blank" rel="noopener">ORCID</a>
@@ -29,7 +29,7 @@ permalink: /people/
       <div class="person-img" style="background-image:url('{{ "/assets/img/ebrahim.png" | relative_url }}');"></div>
       <div class="person-body">
         <h3>Ebrahim Adam</h3>
-        <p class="muted"><strong>Title:</strong> Lecturer – Faculty of ICT</p>
+        <p class="muted"><strong>Title:</strong> Lecturer – School of Computer Science</p>
         <p class="muted"><strong>Affiliation:</strong> Emeris</p>
         <div class="person-links">
           <a class="pill" href="https://orcid.org/0000-0002-2052-3007" target="_blank" rel="noopener">ORCID</a>
