@@ -6,49 +6,49 @@ permalink: /contact/
 
 {% include nav.html %}
 
-<section class="hero" style="background: linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)),
-              url('https://images.unsplash.com/photo-1454165205744-3b78555e5572') center/cover no-repeat;">
-  <h1>Contact CERE</h1>
-  <p>Collaborations | Research Supervision | Academic Partnerships</p>
-</section>
-
 <section class="section">
 
   <section class="section">
-  <h2>Send an Enquiry</h2>
+  <h2>Contact CERE</h2>
 
-  <div class="form-wrap form-wrap-dark">
+<div class="form-wrap">
 
-    <!-- Replace abcdwxyz with your real Formspree ID -->
-    <form action="https://formspree.io/f/mdawnnbp" method="POST">
+<form id="cere-contact-form"
+      action="https://formspree.io/f/mdawnnbp"
+      method="POST">
 
-      <!-- spam honeypot -->
-      <input type="text" name="_gotcha" style="display:none">
+<label>Full name</label>
+<input type="text" name="name" required>
 
-      <!-- subject shown in your inbox -->
-      <input type="hidden" name="_subject" value="New enquiry: CERE website">
+<label>Email address</label>
+<input type="email" name="email" required>
 
-      <!-- optional redirect after submit -->
-      <input type="hidden" name="_redirect" value="{{ '/contact/?sent=1' | relative_url }}">
+<label>Affiliation / Organisation</label>
+<input type="text" name="affiliation">
 
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="text" name="affiliation" placeholder="Affiliation / Organisation (optional)">
-      <input type="text" name="subject" placeholder="Subject (optional)">
-      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+<label>Enquiry type</label>
+<select name="enquiry_type" required>
+<option value="">Select enquiry type</option>
+<option>Collaboration / partnership</option>
+<option>Research supervision</option>
+<option>Honours / Masters research topic</option>
+<option>Student participation</option>
+<option>Speaking / seminar request</option>
+<option>Other</option>
+</select>
 
-      <button type="submit" class="btn" style="margin:0;">Submit Message</button>
-    </form>
+<label>Message</label>
+<textarea name="message" rows="6" required></textarea>
 
-    <p class="muted" style="margin-top:14px;">
-      By submitting this form, you consent to being contacted by CERE for the purpose of responding to your enquiry.
-    </p>
+<input type="text" name="_gotcha" style="display:none">
 
-    <!-- Optional: simple success note (shows after redirect) -->
-    <p class="success-note" style="display:none; margin-top:14px;">
-      ✅ Thanks — your message has been sent.
-    </p>
-  </div>
+<button type="submit">Send Enquiry</button>
+
+</form>
+
+<p id="form-status"></p>
+
+</div>
 </section>
 
 <script>
@@ -62,3 +62,35 @@ permalink: /contact/
 </section>
 
 {% include footer.html %}
+
+<script>
+var form = document.getElementById("cere-contact-form");
+var status = document.getElementById("form-status");
+
+async function handleSubmit(event) {
+  event.preventDefault();
+
+  var data = new FormData(event.target);
+
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+    }
+  }).then(response => {
+
+    if (response.ok) {
+      status.innerHTML = "Thank you. Your enquiry has been sent.";
+      form.reset();
+    } else {
+      status.innerHTML = "Oops. Something went wrong.";
+    }
+
+  }).catch(error => {
+    status.innerHTML = "Network error. Please try again.";
+  });
+}
+
+form.addEventListener("submit", handleSubmit);
+</script>

@@ -493,3 +493,19 @@ footer.site-footer,
 .success-note {
   color: rgba(180,255,200,0.95);
 }
+
+.form-wrap select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#form-status {
+  margin-top: 16px;
+  font-weight: 500;
+  color: #6C63FF;
+}
