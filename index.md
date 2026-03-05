@@ -58,6 +58,34 @@ permalink: /
   </div>
 </section>
 
+<section class="section" id="students">
+  <h2>Student Support</h2>
+  <div class="card" style="max-width: 980px; margin: 0 auto; text-align:center;">
+    <p>We support students with:</p>
+    <ul style="margin-left: 18px; margin-top: 10px;">
+      <li>Honours research topics and supervision</li>
+      <li>Postgraduate projects aligned to lab projects</li>
+      <li>Research assistant opportunities (data collection, analysis, prototypes, etc.)</li>
+    </ul>
+  </div>
+</section>
 
+
+<section class="section">
+  <h2>Partnerships</h2>
+  <div class="card" style="max-width: 980px; margin: 0 auto; text-align:center;">
+    <p>We welcome collaboration with:</p>
+    <ul class="nice-list">
+      <li>Computer Science and Information Systems Faculties</li>
+      <li>Excellence in Teaching & Learning units</li>
+      <li>Schools, NGOs, and industry partners</li>
+      <li>Researchers, postgraduate students and research assistants</li>
+    </ul>
+
+    <div style="margin-top: 18px; text-align:center;">
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Contact Us</a>
+    </div>
+  </div>
+</section>
 
 {% include footer.html %}
