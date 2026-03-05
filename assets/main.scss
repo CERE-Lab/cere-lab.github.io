@@ -255,6 +255,41 @@ footer.site-footer,
 }
 
 /* =========================
+   Projects Grid: force 4 per row on desktop
+========================= */
+
+.cards.projects-grid{
+  /* smaller gaps so 4 fit more easily */
+  gap: 18px;
+}
+
+/* Large desktops: 4 across */
+@media (min-width: 1200px){
+  .cards.projects-grid{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  /* optional: slightly smaller image height so card content fits nicer */
+  .cards.projects-grid .project-img{
+    height: 170px;
+  }
+}
+
+/* Medium screens: 2 across */
+@media (max-width: 1199px){
+  .cards.projects-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Small screens: 1 across */
+@media (max-width: 600px){
+  .cards.projects-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
    Project Cards
 ========================= */
 

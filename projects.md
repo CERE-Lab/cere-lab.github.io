@@ -7,8 +7,8 @@ permalink: /projects/
 {% include nav.html %}
 
 <section class="section">
-<h2>Current Projects</h2>
-<div class="cards">
+<h2>Projects</h2>
+<div class="cards projects-grid">
   <!-- Project 1 -->
   <div class="card project-card">
     <div class="project-img" style="background-image:url('{{ "/assets/img/gabriel-vasiliu-mVJzfw2Zm7Y-unsplash.jpg" | relative_url }}');"></div>
