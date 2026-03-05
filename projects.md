@@ -73,29 +73,29 @@ permalink: /projects/
       Evidence-based guidance on designing effective cloud lab environments for computing education.</p>
     </div>
   </div>
-</div>
 
-<!-- Project 4 -->
-<div class="card project-card">
-  <div class="project-img" style="background-image:url('{{ "/assets/img/128477.jpg" | relative_url }}');"></div>
 
-  <div class="project-body">
-    <h3>ICT for Social Justice</h3>
+  <!-- Project 4 -->
+  <div class="card project-card">
+    <div class="project-img" style="background-image:url('{{ "/assets/img/128477.jpg" | relative_url }}');"></div>
 
-    <p><strong>Focus</strong><br>
-    Exploring how digital technologies can reduce educational inequality and support inclusive learning environments.</p>
+    <div class="project-body">
+      <h3>ICT for Social Justice</h3>
 
-    <p><strong>Overview</strong><br>
-    This project investigates how ICT tools can improve equitable access to education by addressing barriers related to connectivity, devices, and digital resources. It examines how technology can support learners from underserved communities and contribute to more inclusive educational practices.</p>
+      <p><strong>Focus</strong><br>
+      Exploring how digital technologies can reduce educational inequality and support inclusive learning environments.</p>
 
-    <p><strong>Approach</strong><br>
-    The research explores themes such as the digital divide between communities, the use of assistive technologies that support students with disabilities, and initiatives that encourage greater participation of girls and women in computing. It also considers the role of Open Educational Resources (OER) in expanding access to learning materials and the ethical use of technologies such as AI in education.</p>
+      <p><strong>Overview</strong><br>
+      This project investigates how ICT tools can improve equitable access to education by addressing barriers related to connectivity, devices, and digital resources. It examines how technology can support learners from underserved communities and contribute to more inclusive educational practices.</p>
 
-    <p><strong>Outcome</strong><br>
-    Insights into how technology can be designed and implemented to promote equitable access to learning, reduce technological inequalities, and support socially responsible ICT practices in education.</p>
+      <p><strong>Approach</strong><br>
+      The research explores themes such as the digital divide between communities, the use of assistive technologies that support students with disabilities, and initiatives that encourage greater participation of girls and women in computing. It also considers the role of Open Educational Resources (OER) in expanding access to learning materials and the ethical use of technologies such as AI in education.</p>
+
+      <p><strong>Outcome</strong><br>
+      Insights into how technology can be designed and implemented to promote equitable access to learning, reduce technological inequalities, and support socially responsible ICT practices in education.</p>
+    </div>
   </div>
 </div>
-
 <div style="margin-top: 26px; text-align:center;">
     <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Propose a Project</a>
 </div>  
