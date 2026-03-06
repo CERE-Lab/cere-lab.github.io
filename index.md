@@ -147,7 +147,7 @@ Online collaboration platforms (e.g., coding repositories, learning communities)
 
 Mobile and cloud-based learning systems
 
-EdTech innovation refers to the development and use of new digital tools, platforms, and teaching approaches that improve the learning experience. These innovations often include technologies such as Artificial Intelligence (AI), as well as virtual and augmented reality (VR/AR) to create immersive learning environments and cloud-based learning systems to enable  access to educational resources anytime and anywhere..</p>
+EdTech innovation refers to the development and use of new digital tools, platforms, and teaching approaches that improve the learning experience. These innovations often include technologies such as Artificial Intelligence (AI), as well as virtual and augmented reality (VR/AR) to create immersive learning environments and cloud-based learning systems to enable flexible access to educational resources anytime and anywhere..</p>
     </div>
 
     <div class="card">
