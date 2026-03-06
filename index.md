@@ -36,7 +36,7 @@ permalink: /
 
     <div class="card">
       <h3>EdTech Innovation</h3>
-      <p>Educational Technology (EdTech) innovation and research focuses on how digital technologies can transform teaching, learning, and educational systems.These innovations often include technologies such as Artificial Intelligence (AI), as well as virtual and augmented reality (VR/AR) to create immersive learning environments and cloud-based learning systems to enable flexible access to educational resources anytime and anywhere.</p>
+      <p>Educational Technology (EdTech) innovation and research focuses on how digital technologies can transform teaching, learning, and educational systems.These innovations often include technologies such as Artificial Intelligence (AI), as well as virtual and augmented reality (VR/AR) to create immersive learning environments.</p>
     </div>
 
     <div class="card">
