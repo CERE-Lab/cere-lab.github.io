@@ -21,7 +21,7 @@ permalink: /
   <div class="cards cards-2rows">
     <div class="card">
       <h3>Computing Pedagogy</h3>
-      <p>Evidence-based teaching strategies, misconceptions, and learning design for programming, systems, and data.</p>
+      <p>Computing pedagogy research (often called Computing Education    Research – CER) investigates how computing and programming are taught and learned, and how teaching approaches can be improved to enhance student understanding, engagement, and success.</p>
     </div>
 
     <div class="card">
@@ -58,7 +58,6 @@ permalink: /
     <ul style="margin-left: 18px; margin-top: 10px;">
       <li>Honours research topics and supervision</li>
       <li>Postgraduate projects aligned to lab projects</li>
-      <li>Research assistant opportunities (data collection, analysis, prototypes, etc.)</li>
     </ul>
   </div>
 </section>
@@ -70,7 +69,7 @@ permalink: /
     <ul class="nice-list">
       <li>Computer Science and Information Systems Faculties</li>
       <li>Excellence in Teaching & Learning units</li>
-      <li>Schools, NGOs, and industry partners</li>
+      <li>Schools, NGOs, and Industry partners</li>
       <li>Researchers, postgraduate students and research assistants</li>
     </ul>
 
