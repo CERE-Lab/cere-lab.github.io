@@ -26,7 +26,7 @@ permalink: /
 
     <div class="card">
       <h3>Assessment & Feedback</h3>
-      <p>Authentic assessment, rubrics, feedback workflows, and integrity-by-design approaches.</p>
+      <p>Assessment and feedback research in ICT education examines how different assessment strategies and feedback practices influence student learning, engagement, computational thinking, and skill development in computing-related disciplines such as programming, web development, data science, and information systems.In computing education, assessment is not only used to measure knowledge, but also to support learning through iterative practice, problem solving and the ethical use of  AI in assesments.</p>
     </div>
 
     <div class="card">
