@@ -26,7 +26,7 @@ permalink: /
 
     <div class="card">
       <h3>Assessment & Feedback</h3>
-      <p>Research focusing on assessment and feedback in ICT education examines how different assessment strategies,  feedback and peer reviews  influence student engagement, and skill development.In computing education, assessment is not only used to measure knowledge, but also to support learning through iterative practice, problem solving and peer collobaration.</p>
+      <p>Research focusing on assessment and feedback in ICT education examines how different assessment strategies,feedback and peer reviews  influence student engagement.In computing education, assessment is not only used to measure knowledge, but to support learning through practice, problem solving and peer collobaration.</p>
     </div>
 
     <div class="card">
