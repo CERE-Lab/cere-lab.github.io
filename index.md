@@ -52,12 +52,10 @@ permalink: /
 </section>
 
 <section class="section" id="collaboration">
-  <h2>Student Support & Partnerships</h2>
+  <h2>Support & Partnerships</h2>
 
   <div class="card">
-
     <div class="support-grid">
-
       <div>
         <h3>Student Support</h3>
         <p>We support students with:</p>
@@ -66,7 +64,6 @@ permalink: /
           <li>Postgraduate projects aligned to lab projects</li>
         </ul>
       </div>
-
       <div>
         <h3>Partnerships</h3>
         <p>We welcome collaboration with:</p>
