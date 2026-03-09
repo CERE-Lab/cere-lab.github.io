@@ -7,36 +7,36 @@ permalink: /contact/
 {% include nav.html %}
 
 <section class="section" id="contact">
-  <h2>Contact CERE</h2>
+  <h2>Contact</h2>
 
   <p style="text-align:center; max-width:900px; margin:0 auto 30px;">
     We welcome enquiries related to student research, supervision, collaboration,
     partnerships, and speaking or seminar opportunities.
   </p>
 
-  <div class="cards" style="margin-bottom: 35px;">
+  <div class="contact-cards">
 
-    <div class="card">
-      <h3>Student Support</h3>
-      <p>We support students with:</p>
-      <ul class="nice-list">
-        <li>Honours research topics and supervision</li>
-        <li>Postgraduate projects aligned to lab projects</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>Partnerships</h3>
-      <p>We welcome collaboration with:</p>
-      <ul class="nice-list">
-        <li>Computer Science and Information Systems Faculties</li>
-        <li>Excellence in Teaching &amp; Learning units</li>
-        <li>Schools, NGOs, and Industry partners</li>
-        <li>Researchers, postgraduate students and research assistants</li>
-      </ul>
-    </div>
-
+  <div class="card">
+    <h3>Student Support</h3>
+    <p>We support students with:</p>
+    <ul class="nice-list">
+      <li>Honours research topics and supervision</li>
+      <li>Postgraduate projects aligned to lab projects</li>
+    </ul>
   </div>
+
+  <div class="card">
+    <h3>Partnerships</h3>
+    <p>We welcome collaboration with:</p>
+    <ul class="nice-list">
+      <li>Computer Science and Information Systems Faculties</li>
+      <li>Excellence in Teaching &amp; Learning units</li>
+      <li>Schools, NGOs, and Industry partners</li>
+      <li>Researchers, postgraduate students and research assistants</li>
+    </ul>
+  </div>
+
+</div>
 
   <div class="form-wrap form-wrap-dark">
     <h3>Contact Us</h3>
