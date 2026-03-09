@@ -631,9 +631,11 @@ footer.site-footer,
   overflow-y: hidden;
   margin-top: 1.5rem;
   background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.10);
+  border: none;
   border-radius: 12px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.35);
+  box-shadow:
+    0px 10px 30px rgba(0,0,0,0.35),
+    inset 0 0 0 1px rgba(255,255,255,0.05);
 }
 
 .people-table {
