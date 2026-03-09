@@ -625,3 +625,48 @@ footer.site-footer,
   font-weight: 600;
   color: rgba(180,255,200,0.95);
 }
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.people-table th,
+.people-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.people-table th {
+  background: rgba(255,255,255,0.04);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.people-table td {
+  color: rgba(255,255,255,0.88);
+}
+
+.people-table a {
+  color: #9fb3ff;
+  text-decoration: none;
+}
+
+.people-table a:hover {
+  text-decoration: underline;
+}
+
+.people-table tr:last-child td {
+  border-bottom: none;
+}
