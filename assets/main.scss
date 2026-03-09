@@ -629,33 +629,54 @@ footer.site-footer,
 .table-wrap {
   overflow-x: auto;
   margin-top: 1.5rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .people-table {
   width: 100%;
   border-collapse: collapse;
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 14px;
-  overflow: hidden;
+  min-width: 900px;
 }
 
-.people-table th,
-.people-table td {
-  padding: 14px 16px;
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-
-.people-table th {
-  background: rgba(255,255,255,0.04);
+.people-table thead th {
+  background: rgba(255, 255, 255, 0.04);
   color: #ffffff;
   font-weight: 600;
+  text-align: left;
+  padding: 18px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.people-table td {
-  color: rgba(255,255,255,0.88);
+.people-table tbody td {
+  padding: 18px 16px;
+  text-align: left;
+  vertical-align: top;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.people-table tbody tr {
+  background: transparent;
+}
+
+.people-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.people-table tbody tr:hover {
+  background: rgba(159, 179, 255, 0.08);
+}
+
+.people-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.people-table td:first-child {
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
 }
 
 .people-table a {
@@ -667,6 +688,17 @@ footer.site-footer,
   text-decoration: underline;
 }
 
-.people-table tr:last-child td {
-  border-bottom: none;
+.people-table td,
+.people-table th {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.people-table td:last-child,
+.people-table th:last-child {
+  border-right: none;
+}
+
+.section p {
+  margin-bottom: 1.25rem;
+  color: rgba(255,255,255,0.82);
 }
