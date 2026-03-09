@@ -39,6 +39,7 @@ permalink: /contact/
   </div>
 
   <div class="form-wrap form-wrap-dark">
+    <h3>Contact Us</h3>
     <form id="cere-contact-form"
           action="https://formspree.io/f/mdawnnbp"
           method="POST">
