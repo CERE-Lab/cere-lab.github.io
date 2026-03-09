@@ -51,33 +51,4 @@ permalink: /
   </div>
 </section>
 
-<section class="section" id="collaboration">
-  <h2>Support & Partnerships</h2>
-
-  <div class="card">
-    <div class="support-grid">
-      <div>
-        <h3>Student Support</h3>
-        <p>We support students with:</p>
-        <ul class="nice-list">
-          <li>Honours research topics and supervision</li>
-          <li>Postgraduate projects aligned to lab projects</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Partnerships</h3>
-        <p>We welcome collaboration with:</p>
-        <ul class="nice-list">
-          <li>Computer Science and Information Systems Faculties</li>
-          <li>Excellence in Teaching & Learning units</li>
-          <li>Schools, NGOs, and Industry partners</li>
-          <li>Researchers, postgraduate students and research assistants</li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
 {% include footer.html %}

@@ -6,8 +6,37 @@ permalink: /contact/
 
 {% include nav.html %}
 
-<section class="section">
+<section class="section" id="contact">
   <h2>Contact CERE</h2>
+
+  <p style="text-align:center; max-width:900px; margin:0 auto 30px;">
+    We welcome enquiries related to student research, supervision, collaboration,
+    partnerships, and speaking or seminar opportunities.
+  </p>
+
+  <div class="cards" style="margin-bottom: 35px;">
+
+    <div class="card">
+      <h3>Student Support</h3>
+      <p>We support students with:</p>
+      <ul class="nice-list">
+        <li>Honours research topics and supervision</li>
+        <li>Postgraduate projects aligned to lab projects</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Partnerships</h3>
+      <p>We welcome collaboration with:</p>
+      <ul class="nice-list">
+        <li>Computer Science and Information Systems Faculties</li>
+        <li>Excellence in Teaching &amp; Learning units</li>
+        <li>Schools, NGOs, and Industry partners</li>
+        <li>Researchers, postgraduate students and research assistants</li>
+      </ul>
+    </div>
+
+  </div>
 
   <div class="form-wrap form-wrap-dark">
     <form id="cere-contact-form"
@@ -37,7 +66,6 @@ permalink: /contact/
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="6" required></textarea>
 
-      <!-- spam honeypot -->
       <input type="text" name="_gotcha" style="display:none">
 
       <button class="btn btn-secondary" type="submit" style="margin:0;">Send Enquiry</button>
@@ -72,7 +100,6 @@ permalink: /contact/
           status.textContent = "✅ Thank you. Your enquiry has been sent.";
           form.reset();
         } else {
-          // Try show a useful message from Formspree
           let msg = "❌ Something went wrong. Please try again.";
           try {
             const json = await response.json();
