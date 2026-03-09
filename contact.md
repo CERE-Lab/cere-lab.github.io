@@ -9,73 +9,82 @@ permalink: /contact/
 <section class="section">
   <h2>Contact CERE</h2>
 
-  <p>
-  The <strong>Computing Education Research & Innovation Lab (CERE)</strong> collaborates
-  with researchers, students, and industry partners interested in computing
-  education, software engineering, and emerging technologies.
-  </p>
+  <div class="form-wrap form-wrap-dark">
+    <form id="cere-contact-form"
+          action="https://formspree.io/f/mdawnnbp"
+          method="POST">
 
-  <div class="table-wrap">
+      <label for="name">Full name</label>
+      <input id="name" type="text" name="name" required>
 
-    <table class="research-table">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Role</th>
-          <th>Email / Contact</th>
-          <th>Profiles</th>
-        </tr>
-      </thead>
+      <label for="email">Email address</label>
+      <input id="email" type="email" name="email" required>
 
-      <tbody>
+      <label for="affiliation">Affiliation / Organisation</label>
+      <input id="affiliation" type="text" name="affiliation">
 
-        <tr>
-          <td><strong>Ebrahim Adam</strong></td>
-          <td>Founder / Director</td>
-          <td>
-            <a href="mailto:contact@cere-lab.org">contact@cere-lab.org</a>
-          </td>
-          <td>
-            <a href="https://www.linkedin.com/in/ebadamza/" target="_blank">LinkedIn</a>
-          </td>
-        </tr>
+      <label for="enquiry_type">Enquiry type</label>
+      <select id="enquiry_type" name="enquiry_type" required>
+        <option value="" selected disabled>Select enquiry type</option>
+        <option>Collaboration / partnership</option>
+        <option>Research supervision</option>
+        <option>Honours / Masters research topic</option>
+        <option>Student participation</option>
+        <option>Speaking / seminar request</option>
+        <option>Other</option>
+      </select>
 
-        <tr>
-          <td><strong>Denzyl Govender</strong></td>
-          <td>Researcher</td>
-          <td>—</td>
-          <td>
-            <a href="https://www.linkedin.com/in/denzyl-soobramoney-govender-117722130/" target="_blank">LinkedIn</a> |
-            <a href="https://orcid.org/0009-0002-0747-3970" target="_blank">ORCID</a>
-          </td>
-        </tr>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
 
-        <tr>
-          <td><strong>Reece Wanvig</strong></td>
-          <td>Researcher</td>
-          <td>—</td>
-          <td>
-            <a href="https://orcid.org/0009-0002-7214-7856" target="_blank">ORCID</a> |
-            <a href="https://scholar.google.com/citations?user=RJWZHTYAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a> |
-            <a href="https://www.linkedin.com/in/reece-wanvig/" target="_blank">LinkedIn</a>
-          </td>
-        </tr>
+      <!-- spam honeypot -->
+      <input type="text" name="_gotcha" style="display:none">
 
-        <tr>
-          <td><strong>Sarina Till</strong></td>
-          <td>Researcher</td>
-          <td>—</td>
-          <td>
-            <a href="https://orcid.org/0000-0003-3281-1484" target="_blank">ORCID</a> |
-            <a href="https://scholar.google.com/citations?user=to3LYSkAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
-          </td>
-        </tr>
+      <button class="btn btn-secondary" type="submit" style="margin:0;">Send Enquiry</button>
+    </form>
 
-      </tbody>
-    </table>
-
+    <p id="form-status" role="status" aria-live="polite" style="margin-top:14px;"></p>
   </div>
-
 </section>
 
 {% include footer.html %}
+
+<script>
+  (function () {
+    const form = document.getElementById("cere-contact-form");
+    const status = document.getElementById("form-status");
+    if (!form || !status) return;
+
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault();
+      status.textContent = "Sending…";
+
+      try {
+        const data = new FormData(form);
+
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: { "Accept": "application/json" }
+        });
+
+        if (response.ok) {
+          status.textContent = "✅ Thank you. Your enquiry has been sent.";
+          form.reset();
+        } else {
+          // Try show a useful message from Formspree
+          let msg = "❌ Something went wrong. Please try again.";
+          try {
+            const json = await response.json();
+            if (json && json.errors && json.errors.length) {
+              msg = "❌ " + json.errors.map(e => e.message).join(" ");
+            }
+          } catch (_) {}
+          status.textContent = msg;
+        }
+      } catch (err) {
+        status.textContent = "❌ Network error. Please check your connection and try again.";
+      }
+    });
+  })();
+</script>
