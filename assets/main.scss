@@ -649,6 +649,74 @@ footer.site-footer,
   background: transparent;
 }
 
+@media (max-width: 768px) {
+  .table-wrap {
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .people-table {
+    min-width: 0;
+  }
+
+  .people-table thead {
+    display: none;
+  }
+
+  .people-table,
+  .people-table tbody,
+  .people-table tr,
+  .people-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .people-table tr {
+    background: rgba(255,255,255,0.06);
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.35);
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .people-table td {
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: 14px 16px;
+    white-space: normal;
+  }
+
+  .people-table tr td:last-child {
+    border-bottom: none;
+  }
+
+  .people-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #a5b4fc;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .people-table td:first-child {
+    font-size: 1.05rem;
+  }
+
+  .person-links {
+    gap: 8px;
+    margin-top: 0;
+  }
+
+  .pill {
+    font-size: 0.9rem;
+    padding: 7px 11px;
+  }
+}
+
 .people-table thead th {
   background: rgba(255,255,255,0.04);
   color: #ffffff;

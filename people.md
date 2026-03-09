@@ -31,10 +31,10 @@ with interests in computing education, applied technology, and interdisciplinary
 <tbody>
 
 <tr>
-<td><strong>Ebrahim Adam</strong></td>
-<td>Lab Lead</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Ebrahim Adam</strong></td>
+<td data-label="Title">Lab Lead</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0000-0002-2052-3007" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=1EFsAqcAAAAJ&hl=en" target="_blank">Google Scholar</a>
@@ -44,10 +44,10 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Natasha Madhav</strong></td>
-<td>Deputy Lab Lead</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Natasha Madhav</strong></td>
+<td data-label="Title">Deputy Lab Lead</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0000-0001-8055-0923" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=rcVve20AAAAJ&hl=en" target="_blank">Google Scholar</a>
@@ -57,10 +57,10 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Johan Vorster</strong></td>
-<td>Executive Sponsor</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Johan Vorster</strong></td>
+<td data-label="Title">Executive Sponsor</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0009-0001-9719-4539" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=0Ss-VSIAAAAJ&hl=en" target="_blank">Google Scholar</a>
@@ -70,10 +70,10 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Reece Wanvig</strong></td>
-<td>Researcher</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Reece Wanvig</strong></td>
+<td data-label="Title">Researcher</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0009-0002-7214-7856" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=RJWZHTYAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>
@@ -83,10 +83,10 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Sarina Till</strong></td>
-<td>Researcher</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Sarina Till</strong></td>
+<td data-label="Title">Researcher</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0000-0003-3281-1484" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=to3LYSkAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
@@ -96,10 +96,10 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Denzyl Govender</strong></td>
-<td>Researcher</td>
-<td>Emeris</td>
-<td>
+<td data-label="Name"><strong>Denzyl Govender</strong></td>
+<td data-label="Title">Researcher</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0009-0002-0747-3970" target="_blank">ORCID</a>
 <a class="pill" href="mailto:dengovender@emeris.ac.za">Email</a>
