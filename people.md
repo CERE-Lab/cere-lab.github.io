@@ -31,34 +31,8 @@ with interests in computing education, applied technology, and interdisciplinary
 <tbody>
 
 <tr>
-<td><strong>Johan Vorster</strong></td>
-<td>Dean – Faculty of Science and Technology</td>
-<td>Emeris</td>
-<td>
-<div class="person-links">
-<a class="pill" href="https://orcid.org/0009-0001-9719-4539" target="_blank">ORCID</a>
-<a class="pill" href="https://scholar.google.com/citations?user=0Ss-VSIAAAAJ&hl=en" target="_blank">Google Scholar</a>
-<a class="pill" href="mailto:jvorster@emeris.ac.za">Email</a>
-</div>
-</td>
-</tr>
-
-<tr>
-<td><strong>Natasha Madhav</strong></td>
-<td>Lecturer</td>
-<td>Emeris</td>
-<td>
-<div class="person-links">
-<a class="pill" href="https://orcid.org/0000-0001-8055-0923" target="_blank">ORCID</a>
-<a class="pill" href="https://scholar.google.com/citations?user=rcVve20AAAAJ&hl=en" target="_blank">Google Scholar</a>
-<a class="pill" href="mailto:nmadhav@emeris.ac.za">Email</a>
-</div>
-</td>
-</tr>
-
-<tr>
 <td><strong>Ebrahim Adam</strong></td>
-<td>Lecturer</td>
+<td>Lab Lead</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
@@ -70,20 +44,34 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td><strong>Denzyl Govender</strong></td>
-<td>Lecturer</td>
+<td><strong>Natasha Madhav</strong></td>
+<td>Deputy Lab Lead</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
-<a class="pill" href="https://orcid.org/0009-0002-0747-3970" target="_blank">ORCID</a>
-<a class="pill" href="mailto:dengovender@emeris.ac.za">Email</a>
+<a class="pill" href="https://orcid.org/0000-0001-8055-0923" target="_blank">ORCID</a>
+<a class="pill" href="https://scholar.google.com/citations?user=rcVve20AAAAJ&hl=en" target="_blank">Google Scholar</a>
+<a class="pill" href="mailto:nmadhav@emeris.ac.za">Email</a>
+</div>
+</td>
+</tr>
+
+<tr>
+<td><strong>Johan Vorster</strong></td>
+<td>Executive Sponsor</td>
+<td>Emeris</td>
+<td>
+<div class="person-links">
+<a class="pill" href="https://orcid.org/0009-0001-9719-4539" target="_blank">ORCID</a>
+<a class="pill" href="https://scholar.google.com/citations?user=0Ss-VSIAAAAJ&hl=en" target="_blank">Google Scholar</a>
+<a class="pill" href="mailto:jvorster@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
 
 <tr>
 <td><strong>Reece Wanvig</strong></td>
-<td>Lecturer </td>
+<td>Researcher</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
@@ -96,13 +84,25 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td><strong>Sarina Till</strong></td>
-<td>Senior Researcher</td>
+<td>Researcher</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0000-0003-3281-1484" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=to3LYSkAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
 <a class="pill" href="mailto:ctill@emeris.ac.za">Email</a>
+</div>
+</td>
+</tr>
+
+<tr>
+<td><strong>Denzyl Govender</strong></td>
+<td>Researcher</td>
+<td>Emeris</td>
+<td>
+<div class="person-links">
+<a class="pill" href="https://orcid.org/0009-0002-0747-3970" target="_blank">ORCID</a>
+<a class="pill" href="mailto:dengovender@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
