@@ -32,7 +32,7 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td><strong>Johan Vorster</strong></td>
-<td>Dean – Faculty of Science and Technology: School of Engineering, Science and Health</td>
+<td>Dean – Faculty of Science and Technology</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
@@ -45,7 +45,7 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td><strong>Natasha Madhav</strong></td>
-<td>Lecturer – School of Computer Science</td>
+<td>Lecturer</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
@@ -58,7 +58,7 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td><strong>Ebrahim Adam</strong></td>
-<td>Lecturer – School of Computer Science</td>
+<td>Lecturer</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
@@ -71,37 +71,38 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td><strong>Denzyl Govender</strong></td>
-<td>Researcher</td>
+<td>Lecturer</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
-<a class="pill" href="https://www.linkedin.com/in/denzyl-soobramoney-govender-117722130/" target="_blank">LinkedIn</a>
 <a class="pill" href="https://orcid.org/0009-0002-0747-3970" target="_blank">ORCID</a>
+<a class="pill" href="mailto:dengovender@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
 
 <tr>
 <td><strong>Reece Wanvig</strong></td>
-<td>Researcher</td>
+<td>Lecturer </td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0009-0002-7214-7856" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=RJWZHTYAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>
-<a class="pill" href="https://www.linkedin.com/in/reece-wanvig/" target="_blank">LinkedIn</a>
+<a class="pill" href="mailto:rwanvig@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
 
 <tr>
 <td><strong>Sarina Till</strong></td>
-<td>Researcher</td>
+<td>Senior Researcher</td>
 <td>Emeris</td>
 <td>
 <div class="person-links">
 <a class="pill" href="https://orcid.org/0000-0003-3281-1484" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=to3LYSkAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+<a class="pill" href="mailto:ctill@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
