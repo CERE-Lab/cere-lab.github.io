@@ -53,9 +53,9 @@ permalink: /contact/
       <label for="affiliation">Affiliation / Organisation</label>
       <input id="affiliation" type="text" name="affiliation">
 
-      <label for="enquiry_type">Enquiry type</label>
-      <select id="enquiry_type" name="enquiry_type" required>
-        <option value="" selected disabled>Select enquiry type</option>
+      <label>Enquiry type</label>
+      <select name="enquiry_type" required>
+        <option value="" disabled selected>Select enquiry type</option>
         <option>Collaboration / partnership</option>
         <option>Research supervision</option>
         <option>Honours / Masters research topic</option>
