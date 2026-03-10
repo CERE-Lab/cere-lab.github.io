@@ -36,7 +36,7 @@ permalink: /projects/
     <div class="project-img" style="background-image:url('{{ "/assets/img/markus-winkler-9draKK5mCoU-unsplash.jpg" | relative_url }}');"></div>
 
     <div class="project-body">
-      <h3>Predictive Analytics – Proactive At-Risk Support</h3>
+      <h3>Learning Analytics</h3>
 
       <p><strong>Focus</strong><br>
       Using data analytics to identify students who may require academic support.</p>
@@ -58,7 +58,7 @@ permalink: /projects/
     <div class="project-img" style="background-image:url('{{ "/assets/img/growtika-WELyMatW3mw-unsplash.jpg" | relative_url }}');"></div>
 
     <div class="project-body">
-      <h3>CloudLabs</h3>
+      <h3>Virtual Labs</h3>
 
       <p><strong>Focus</strong><br>
       Understanding how cloud-based laboratory environments influence computing education.</p>
