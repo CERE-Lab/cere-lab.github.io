@@ -84,7 +84,7 @@ with interests in computing education, applied technology, and interdisciplinary
 
 <tr>
 <td data-label="Name"><strong>Sarina Till</strong></td>
-<td data-label="Title">Researcher</td>
+<td data-label="Title">Senior Researcher</td>
 <td data-label="Affiliation">Emeris</td>
 <td data-label="Profiles">
 <div class="person-links">
