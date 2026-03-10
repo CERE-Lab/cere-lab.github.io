@@ -83,6 +83,19 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
+<td data-label="Name"><strong>Taryn Wilson</strong></td>
+<td data-label="Title">Researcher</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
+<div class="person-links">
+<a class="pill" href="https://orcid.org/0009-0005-1434-903X" target="_blank">ORCID</a>
+<a class="pill" href="https://scholar.google.com/citations?user=h26qjtcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+<a class="pill" href="mailto:twilson@emeris.ac.za">Email</a>
+</div>
+</td>
+</tr>
+
+<tr>
 <td data-label="Name"><strong>Reece Wanvig</strong></td>
 <td data-label="Title">Researcher</td>
 <td data-label="Affiliation">Emeris</td>
