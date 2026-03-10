@@ -70,19 +70,6 @@ with interests in computing education, applied technology, and interdisciplinary
 </tr>
 
 <tr>
-<td data-label="Name"><strong>Reece Wanvig</strong></td>
-<td data-label="Title">Researcher</td>
-<td data-label="Affiliation">Emeris</td>
-<td data-label="Profiles">
-<div class="person-links">
-<a class="pill" href="https://orcid.org/0009-0002-7214-7856" target="_blank">ORCID</a>
-<a class="pill" href="https://scholar.google.com/citations?user=RJWZHTYAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>
-<a class="pill" href="mailto:rwanvig@emeris.ac.za">Email</a>
-</div>
-</td>
-</tr>
-
-<tr>
 <td data-label="Name"><strong>Sarina Till</strong></td>
 <td data-label="Title">Senior Researcher</td>
 <td data-label="Affiliation">Emeris</td>
@@ -91,6 +78,19 @@ with interests in computing education, applied technology, and interdisciplinary
 <a class="pill" href="https://orcid.org/0000-0003-3281-1484" target="_blank">ORCID</a>
 <a class="pill" href="https://scholar.google.com/citations?user=to3LYSkAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
 <a class="pill" href="mailto:ctill@emeris.ac.za">Email</a>
+</div>
+</td>
+</tr>
+
+<tr>
+<td data-label="Name"><strong>Reece Wanvig</strong></td>
+<td data-label="Title">Researcher</td>
+<td data-label="Affiliation">Emeris</td>
+<td data-label="Profiles">
+<div class="person-links">
+<a class="pill" href="https://orcid.org/0009-0002-7214-7856" target="_blank">ORCID</a>
+<a class="pill" href="https://scholar.google.com/citations?user=RJWZHTYAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>
+<a class="pill" href="mailto:rwanvig@emeris.ac.za">Email</a>
 </div>
 </td>
 </tr>
